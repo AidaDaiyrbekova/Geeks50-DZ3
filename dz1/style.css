@@ -1,0 +1,31 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #72afaf;
+}
+.hamster-clicker {
+    /*display:flex;*/
+    flex-direction: column;
+    gap: 50px;
+    padding: 15px;
+    /*background-color: #6bafaf;*/
+}
+.block {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn button {
+    width: 125px;
+    height: 125px;
+    border-radius: 70px;
+    cursor: pointer;
+    background-color: #84d3d3;
+}
+

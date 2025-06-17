@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.29);
+}
+
+.season-button {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.98);
+}
+
+button {
+    width: 100px;
+    height: 55px;
+    margin-right: 25px;
+}
+#winterBtn {
+    background-color: rgba(90, 203, 203, 0.5);
+}
+#springBtn {
+    background-color: rgba(213, 101, 21, 0.5);
+}
+#summerBtn {
+    background-color: rgba(41, 204, 73, 0.5);
+}
+#autumnBtn {
+    background-color: rgba(225, 193, 48, 0.5);
+}
+
+#winterBtn:hover {
+    background-color: #5acbcb;
+}
+#springBtn:hover {
+    background-color: #d56515;
+}
+#summerBtn:hover {
+    background-color: #29cc49;
+}
+#autumnBtn:hover {
+    background-color: #e1c130;
+}
+
+#monthsContainer {
+    margin-top: 20px;
+}

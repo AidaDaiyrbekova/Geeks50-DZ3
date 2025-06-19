@@ -1,0 +1,32 @@
+body {
+    background-color: rgba(0, 0, 0, 0.98);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.98);
+    padding: 20px;
+    border: 1px solid #ffbb00;
+}
+h3 {
+    color: rgb(241, 228, 34);
+}
+.btnCounter {
+    margin-top: 20px;
+    border-radius: 25px;
+    background-color: #000000;
+}
+.btnStyle {
+    border-radius: 15px;
+    border: 1px solid rgb(241, 228, 34);
+    font-size: 15px;
+    color: rgb(241, 228, 34) ;
+    background-color: #000000;
+}

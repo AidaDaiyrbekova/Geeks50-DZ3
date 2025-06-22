@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(229, 169, 169);
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.img {
+    width: 7%;
+    height: 93vh;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 50px;
+    border: 2px solid #ffbb00;
+}
+.active {
+    width: 60%;
+}
